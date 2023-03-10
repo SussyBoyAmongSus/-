@@ -1,12 +1,22 @@
 
 package net.mcreator.conorjohnnymod.item;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
-import java.util.function.Consumer;
-import net.minecraft.client.model.Model;
+import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.conorjohnnymod.init.ConorjohnnymodModItems;
 
 public abstract class PigIronArmorItem extends ArmorItem {
-
 	public PigIronArmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -31,7 +41,7 @@ public abstract class PigIronArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(ConorjohnnymodModItems.DELETED_MOD_ELEMENT.get()));
+				return Ingredient.of(new ItemStack(ConorjohnnymodModItems.PIG_IRON_INGOT.get()));
 			}
 
 			@Override
@@ -52,7 +62,6 @@ public abstract class PigIronArmorItem extends ArmorItem {
 	}
 
 	public static class Helmet extends PigIronArmorItem {
-
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
@@ -61,11 +70,9 @@ public abstract class PigIronArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "conorjohnnymod:textures/models/armor/pigiron_layer_1.png";
 		}
-
 	}
 
 	public static class Chestplate extends PigIronArmorItem {
-
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
@@ -74,11 +81,9 @@ public abstract class PigIronArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "conorjohnnymod:textures/models/armor/pigiron_layer_1.png";
 		}
-
 	}
 
 	public static class Leggings extends PigIronArmorItem {
-
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
@@ -87,11 +92,9 @@ public abstract class PigIronArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "conorjohnnymod:textures/models/armor/pigiron_layer_2.png";
 		}
-
 	}
 
 	public static class Boots extends PigIronArmorItem {
-
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
@@ -100,7 +103,5 @@ public abstract class PigIronArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "conorjohnnymod:textures/models/armor/pigiron_layer_1.png";
 		}
-
 	}
-
 }
