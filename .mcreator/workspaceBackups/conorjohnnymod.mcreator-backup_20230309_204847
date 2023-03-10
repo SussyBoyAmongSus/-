@@ -1,0 +1,46 @@
+{
+  "mod_elements": [
+    {
+      "name": "Dfshrijdfqe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dfshrijdfqe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/conorjohnnymod/models/item/dfshrijdfqe.json",
+          "src/main/java/net/mcreator/conorjohnnymod/item/DfshrijdfqeItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.conorjohnnymod.dfshrijdfqe": "Dfshrijdfqe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "conorjohnnymod",
+    "modName": "ConorJohnnyMod",
+    "version": "1.0.0",
+    "author": "jmend, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.conorjohnnymod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110219
+}
