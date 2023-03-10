@@ -1,14 +1,3 @@
 {
-  "block.conorjohnnymod.pig_iron_block": "Block of PigIron",
-  "item.conorjohnnymod.pig_iron_armor_helmet": "PigIron Helmet",
-  "item.conorjohnnymod.pig_iron_armor_chestplate": "PigIron Chestplate",
-  "item.conorjohnnymod.pig_iron_ingot": "PigIron",
-  "item.conorjohnnymod.pig_iron_shovel": "PigIron Shovel",
-  "item.conorjohnnymod.pig_iron_axe": "PigIron Axe",
-  "item.conorjohnnymod.pig_iron_armor_leggings": "PigIron Leggings",
-  "item.conorjohnnymod.pig_iron_sword": "PigIron Sword",
-  "item.conorjohnnymod.pig_iron_armor_boots": "PigIron Boots",
-  "item.conorjohnnymod.pig_iron_pickaxe": "PigIron Pickaxe",
-  "block.conorjohnnymod.pig_iron_ore": "PigIron Ore",
-  "item.conorjohnnymod.pig_iron_hoe": "PigIron Hoe"
+  "item.conorjohnnymod.jkn": "Jkn"
 }

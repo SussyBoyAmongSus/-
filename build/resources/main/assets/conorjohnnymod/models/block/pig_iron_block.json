@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "conorjohnnymod:blocks/pigiron_ore_block",
-    "particle": "conorjohnnymod:blocks/pigiron_ore_block"
-  },
-  "render_type": "solid"
-}

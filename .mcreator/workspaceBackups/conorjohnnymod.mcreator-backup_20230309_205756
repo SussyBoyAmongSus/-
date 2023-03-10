@@ -1,0 +1,199 @@
+{
+  "mod_elements": [
+    {
+      "name": "PigIronOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/conorjohnnymod/world/features/ores/PigIronOreFeature.java",
+          "src/main/java/net/mcreator/conorjohnnymod/block/PigIronOreBlock.java",
+          "src/main/resources/data/conorjohnnymod/forge/biome_modifier/pig_iron_ore_biome_modifier.json",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_ore.json",
+          "src/main/resources/assets/conorjohnnymod/models/block/pig_iron_ore.json",
+          "src/main/resources/assets/conorjohnnymod/blockstates/pig_iron_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronArmor",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_armor_leggings.json",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_armor_chestplate.json",
+          "src/main/java/net/mcreator/conorjohnnymod/item/PigIronArmorItem.java",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_armor_helmet.json",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/conorjohnnymod/block/PigIronBlockBlock.java",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_block.json",
+          "src/main/resources/assets/conorjohnnymod/blockstates/pig_iron_block.json",
+          "src/main/resources/assets/conorjohnnymod/models/block/pig_iron_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronPickaxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_pickaxe.json",
+          "src/main/java/net/mcreator/conorjohnnymod/item/PigIronPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PigIronHoe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/conorjohnnymod/item/PigIronHoeItem.java",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronHoeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronSwordRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronIngot",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/conorjohnnymod/item/PigIronIngotItem.java",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.conorjohnnymod.pig_iron_block": "Block of PigIron",
+      "item.conorjohnnymod.pig_iron_armor_helmet": "PigIron Helmet",
+      "item.conorjohnnymod.pig_iron_armor_chestplate": "PigIron Chestplate",
+      "item.conorjohnnymod.pig_iron_ingot": "PigIron",
+      "item.conorjohnnymod.pig_iron_armor_leggings": "PigIron Leggings",
+      "item.conorjohnnymod.pig_iron_armor_boots": "PigIron Boots",
+      "item.conorjohnnymod.pig_iron_pickaxe": "PigIron Pickaxe",
+      "block.conorjohnnymod.pig_iron_ore": "PigIron Ore",
+      "item.conorjohnnymod.pig_iron_hoe": "PigIron Hoe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "conorjohnnymod",
+    "modName": "ConorJohnnyMod",
+    "version": "1.0.0",
+    "author": "jmend, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.conorjohnnymod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110219
+}
