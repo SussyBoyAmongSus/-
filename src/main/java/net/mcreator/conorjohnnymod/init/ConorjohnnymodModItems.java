@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.conorjohnnymod.item.DfshrijdfqeItem;
+import net.mcreator.conorjohnnymod.item.DfsfdsfsItem;
 import net.mcreator.conorjohnnymod.ConorjohnnymodMod;
 
 public class ConorjohnnymodModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ConorjohnnymodMod.MODID);
+	public static final RegistryObject<Item> DFSFDSFS = REGISTRY.register("dfsfdsfs", () -> new DfsfdsfsItem());
 	public static final RegistryObject<Item> DFSHRIJDFQE = REGISTRY.register("dfshrijdfqe", () -> new DfshrijdfqeItem());
 }
