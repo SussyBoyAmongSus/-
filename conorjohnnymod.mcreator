@@ -1,5 +1,276 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "PigIronAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/conorjohnnymod/item/PigIronAxeItem.java",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/conorjohnnymod/item/PigIronShovelItem.java",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronArmorBodyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/conorjohnnymod/world/features/ores/PigIronOreFeature.java",
+          "src/main/java/net/mcreator/conorjohnnymod/block/PigIronOreBlock.java",
+          "src/main/resources/data/conorjohnnymod/forge/biome_modifier/pig_iron_ore_biome_modifier.json",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_ore.json",
+          "src/main/resources/assets/conorjohnnymod/models/block/pig_iron_ore.json",
+          "src/main/resources/assets/conorjohnnymod/blockstates/pig_iron_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_armor_leggings.json",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_armor_chestplate.json",
+          "src/main/java/net/mcreator/conorjohnnymod/item/PigIronArmorItem.java",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_armor_helmet.json",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/conorjohnnymod/block/PigIronBlockBlock.java",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_block.json",
+          "src/main/resources/assets/conorjohnnymod/blockstates/pig_iron_block.json",
+          "src/main/resources/assets/conorjohnnymod/models/block/pig_iron_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_pickaxe.json",
+          "src/main/java/net/mcreator/conorjohnnymod/item/PigIronPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PigIronHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/conorjohnnymod/item/PigIronHoeItem.java",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/conorjohnnymod/item/PigIronIngotItem.java",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/conorjohnnymod/item/PigIronSwordItem.java",
+          "src/main/resources/assets/conorjohnnymod/models/item/pig_iron_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "PigIronShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_iron_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/conorjohnnymod/recipes/pig_iron_shovel_recipe.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
