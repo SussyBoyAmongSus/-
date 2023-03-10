@@ -30,6 +30,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.conorjohnnymod.init.ConorjohnnymodModItems;
+import net.mcreator.conorjohnnymod.init.ConorjohnnymodModFeatures;
+import net.mcreator.conorjohnnymod.init.ConorjohnnymodModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,7 +52,10 @@ public class ConorjohnnymodMod {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		ConorjohnnymodModBlocks.REGISTRY.register(bus);
 		ConorjohnnymodModItems.REGISTRY.register(bus);
+
+		ConorjohnnymodModFeatures.REGISTRY.register(bus);
 
 	}
 
